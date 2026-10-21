@@ -1,0 +1,18 @@
+{
+  "name": "interesting-x-boltzmann",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 43137",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 43137",
+    "typecheck": "tsc -b --pretty false"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "vite": "^7.1.5"
+  },
+  "description": "Hundreds of colliding particles relax to the Maxwell–Boltzmann distribution while the H-function drops.",
+  "license": "MIT",
+  "private": false
+}
